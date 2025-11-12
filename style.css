@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: #e0e8ff;
+}
+
+.order-summary-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
+  overflow: hidden;
+}
+
+.order-summary-card {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 100%;
+}
+.order-summary-info {
+    padding: 48px;
+}
+.order-summary-image img{
+    max-width: 450px;
+    height: 220px;
+    border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+width: 100%;
+}
+
+.order-summary-info {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 28px;
+    line-height: 135%;
+    font-weight: 950;
+    color: #1F2E55;
+}
+
+.order-summary-desc {
+    padding: 16px 0;
+    color: #717FA6;
+    font-size: 16px;
+    line-height: 165%;
+    font-weight: 600;
+}
+
+.price-plan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F7F9FF;
+    padding: 24px;
+    border-radius: 8px;
+}
+.active-plan {
+    display: flex;
+    gap: 16px;
+}
+.plan-title {
+    font-size: 16px;
+    line-height: 165%;
+    font-weight: 950;
+    color: #1F2E55;
+}
+.price {
+    color: #717FA6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 165%;
+}
+.change-plan {
+    color: #382AE1;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 165%;
+}
+.btn {
+    text-align: center;
+}
+a {
+text-decoration: none;
+}
+
+.payment-button a {
+    color: #fff;
+}
+
+.payment-button {
+    margin: 32px 0;
+    background-color: #382AE1;
+    padding: 12px 74px;
+    border-radius: 11px;
+}
+
+.cancel-order-button a {
+    color: #717FA6;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 550px) {
+    .order-summary-bg {
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-size: cover;
+  }   
+  .order-summary-card {
+    padding: 0 16px;
+  }
+}
+
