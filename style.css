@@ -41,7 +41,7 @@ body {
 }
 .order-summary-image img{
     max-width: 450px;
-    height: 220px;
+    max-height: 220px;
     border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 width: 100%;
