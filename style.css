@@ -146,5 +146,22 @@ text-decoration: none;
   .order-summary-info {
     padding: 24px;
 }
+.card-title {
+    font-size: 22px;
+}
+.order-summary-desc {
+    padding: 24px 0;
+} 
+.price-plan-container {
+    padding: 16px;
+}
+.payment-button {
+    margin: 24px 0;
+}
+.order-summary-desc,
+.cancel-order-button,
+.payment-button a {
+    font-size: 15px;
+}
 }
 
