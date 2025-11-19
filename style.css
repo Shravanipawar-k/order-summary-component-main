@@ -104,6 +104,9 @@ body {
     font-size: 16px;
     line-height: 165%;
 }
+.change-plan:hover {
+    color: #766cf1;
+}
 .btn {
     text-align: center;
 }
@@ -114,6 +117,7 @@ text-decoration: none;
 .payment-button a {
     color: #fff;
     white-space: nowrap;
+    font-weight: 700;
 }
 
 .payment-button {
@@ -125,12 +129,17 @@ text-decoration: none;
     max-width: 100%;
     text-align: center;
 }
-
+.payment-button:hover {
+    background-color: #766cf1;
+}
 .cancel-order-button a {
     color: #717FA6;
-    font-weight: 700;
+    font-weight: 600;
 }
-
+.cancel-order-button a:hover {
+    color: #1F2E55;
+    font-weight: 950;
+}
 @media screen and (max-width: 550px) {
     .order-summary-bg {
     background-image: url('./images/pattern-background-mobile.svg');
